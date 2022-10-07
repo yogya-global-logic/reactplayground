@@ -12,6 +12,7 @@ import TestLogin from './Components/TestLogin';
 import ChildComp from './Components/ChildComp';
 import ParentComp from './Components/ParentComp';
 import Data from './Components/Data';
+import Day5 from './Components/Day5';
 function App() {
   return (
     <div className="App">
@@ -32,10 +33,12 @@ function App() {
     </Routes> */}
 
     {/* Day4  */}
-    <ParentComp></ParentComp>
-    <Data></Data>
+    {/* <ParentComp></ParentComp> */}
+    {/* <Data></Data> */}
     {/* <ChildComp></ChildComp> */}
     
+    {/* day5 */}
+    <Day5></Day5>
     </div>
   );
 }
