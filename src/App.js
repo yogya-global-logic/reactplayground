@@ -13,6 +13,10 @@ import ChildComp from './Components/ChildComp';
 import ParentComp from './Components/ParentComp';
 import Data from './Components/Data';
 import Day5 from './Components/Day5';
+import Uncontrolled from './Day9/Uncontrolledcomp';
+import Uncontrolledcomp from './Day9/Uncontrolledcomp';
+import ControlledComp from './Day9/ControlledComp';
+import Lifecycle from './Day9/Lifecycle';
 function App() {
   return (
     <div className="App">
@@ -38,7 +42,12 @@ function App() {
     {/* <ChildComp></ChildComp> */}
     
     {/* day5 */}
-    <Day5></Day5>
+    {/* <Day5></Day5> */}
+
+    {/* {Day9} */}
+    <Uncontrolledcomp></Uncontrolledcomp>
+    <ControlledComp></ControlledComp>
+    <Lifecycle></Lifecycle>
     </div>
   );
 }
