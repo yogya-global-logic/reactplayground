@@ -17,19 +17,24 @@ import Uncontrolled from './Day9/Uncontrolledcomp';
 import Uncontrolledcomp from './Day9/Uncontrolledcomp';
 import ControlledComp from './Day9/ControlledComp';
 import Lifecycle from './Day9/Lifecycle';
+import MyChart from './Day10/MyChart';
+import Formik from './Day10/Formik';
 function App() {
   return (
     <div className="App">
 {/* day 1 */}
+{/* <h1 className='my-2 bg-danger text-light p-1'>Day1</h1> */}
   {/* <Home></Home> */}
 
   {/* day2  */}
+  {/* <h1 className='my-2 bg-danger text-light p-1'>Day 2</h1> */}
     {/* <ClassComp></ClassComp> */}
     {/* <FuncComp></FuncComp> */}
 
     {/* day3  */}
-    {/* <Day3></Day3>
-    <TestLogin></TestLogin> */}
+    {/* <h1 className='my-2 bg-danger text-light p-1'>Day 3</h1> */}
+    {/* <Day3></Day3> */}
+    {/* <TestLogin></TestLogin> */}
     {/* <Routes>
     <Route path = '/' element={<Day3/>}></Route>
     <Route path = '/login' element={<Login></Login>}></Route>
@@ -37,17 +42,24 @@ function App() {
     </Routes> */}
 
     {/* Day4  */}
-    {/* <ParentComp></ParentComp> */}
-    {/* <Data></Data> */}
+    {/* <h1 className='my-2 bg-danger text-light p-1'>Day 4</h1>
+    <ParentComp></ParentComp>
+    <Data></Data> */}
     {/* <ChildComp></ChildComp> */}
     
     {/* day5 */}
+    {/* <h1 className='my-2 bg-danger text-light p-1'>Day 5</h1> */}
     {/* <Day5></Day5> */}
 
     {/* {Day9} */}
+    {/* <h1 className='my-2 bg-danger text-light p-1'>Day 9</h1>
     <Uncontrolledcomp></Uncontrolledcomp>
     <ControlledComp></ControlledComp>
-    <Lifecycle></Lifecycle>
+    <Lifecycle></Lifecycle> */}
+    
+    {/* Day10 */}
+    <MyChart></MyChart>
+    <Formik></Formik>
     </div>
   );
 }

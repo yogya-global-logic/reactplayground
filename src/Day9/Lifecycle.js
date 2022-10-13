@@ -43,14 +43,19 @@ class Lifecycle extends React.Component{
 
         // console.log("comp did update");
     }
-    shouldComponentUpdate(prevProps,prevState){
-        // called before render
-        // if return false then render will not work
-        if(prevState.counter!=this.state.counter){
-            return true;
-        }
-        return false;
-    }
+
+    // uncomment below to check functionality
+    // but then show child component on click will not work 
+    // as state is not changing
+
+    // shouldComponentUpdate(prevProps,prevState){
+    //     // called before render
+    //     // if return false then render will not work
+    //     if(prevState.counter!=this.state.counter){
+    //         return true;
+    //     }
+    //     return false;
+    // }
     render(){
         console.log("inside render");
         return(
