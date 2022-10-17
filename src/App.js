@@ -19,6 +19,9 @@ import ControlledComp from './Day9/ControlledComp';
 import Lifecycle from './Day9/Lifecycle';
 import MyChart from './Day10/MyChart';
 import Formik from './Day10/Formik';
+import Hooks from './Day12/Hooks';
+import Grandparent from './Day12/Grandparent';
+import Title from './Day12/Title';
 function App() {
   return (
     <div className="App">
@@ -58,8 +61,13 @@ function App() {
     <Lifecycle></Lifecycle> */}
     
     {/* Day10 */}
-    <MyChart></MyChart>
-    <Formik></Formik>
+    {/* <MyChart></MyChart>
+    <Formik></Formik> */}
+
+    {/* {Day12} */}
+    <Title></Title>
+    <Hooks></Hooks>
+    <Grandparent></Grandparent>
     </div>
   );
 }
